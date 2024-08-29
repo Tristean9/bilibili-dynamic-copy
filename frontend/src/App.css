@@ -1,0 +1,6 @@
+.bili-feed4-layout,
+.bili-feed4 .bili-header .bili-header__channel {
+	margin: 0 auto;
+	padding: 0 var(--layout-padding);
+	max-width: calc(1980px + 2 * var(--layout-padding));
+}

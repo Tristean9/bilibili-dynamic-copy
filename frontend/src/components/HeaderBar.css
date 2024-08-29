@@ -1,0 +1,213 @@
+.bili-header__bar {
+	position: absolute;
+	top: 0;
+	z-index: 1002;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 24px;
+	max-width: 2560px;
+	width: 100%;
+	height: 64px;
+}
+
+.bili-header .left-entry {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	margin-right: 30px;
+}
+
+.bili-header .left-entry .entry-title {
+	display: flex;
+	align-items: center;
+}
+
+.bili-header .left-entry .default-entry {
+	display: inline-block;
+}
+
+.bili-header .left-entry .entry-title,
+.bili-header .left-entry .download-entry,
+.bili-header .left-entry .default-entry,
+.bili-header .left-entry .loc-entry {
+	height: 64px;
+	line-height: 64px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.bili-header .left-entry .entry-title .zhuzhan-icon {
+	margin-right: 6px;
+	color: #fff;
+}
+.bili-header .left-entry .download-client-trigger {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.bili-header .left-entry .download-client-trigger__icon {
+	margin-right: 5px;
+	margin-top: -1px;
+	width: 16px;
+	height: 16px;
+}
+
+.svg-container {
+	display: flex;
+	align-items: center;
+}
+
+.bili-header .right-entry .right-entry-item {
+	display: block;
+	flex-shrink: 0;
+	margin-right: 4px;
+	min-width: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.bili-header .right-entry {
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+	margin-left: 20px;
+}
+
+.bili-header .right-entry__outside {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-right: 0;
+	min-width: 50px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.bili-header .header-login-entry {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	color: #fff;
+	background: #00aeec;
+	text-align: center;
+	letter-spacing: 0;
+	font-size: 14px;
+	line-height: 36px;
+	font-weight: 500;
+}
+
+.bili-header .right-entry__outside .right-entry-icon {
+	margin-bottom: 2px;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+.bili-header .right-entry .right-entry-item .right-entry-text {
+	color: #fff;
+	word-break: keep-all;
+	line-height: 1.25;
+}
+
+.bili-header .header-upload-entry {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 16px;
+	width: 90px;
+	height: 34px;
+	border-radius: 8px;
+	background: #fb7299;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-weight: 500;
+}
+
+.bili-header .header-upload-entry__icon {
+	margin-right: 5px;
+	color: #fff;
+}
+
+.bili-header .center-search-container {
+	flex: 1 auto;
+	height: 38px;
+}
+
+.bili-header .center-search-container .center-search__bar {
+	position: relative;
+	margin: 0 auto;
+	min-width: 181px;
+	max-width: 500px;
+}
+
+.bili-header .center-search-container .center-search__bar #nav-searchform {
+	display: flex;
+	align-items: center;
+	padding: 0 48px 0 4px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	line-height: 38px;
+	border: 1px solid #e3e5e7;
+	height: 40px;
+	background-color: #f1f2f3;
+	opacity: 0.9;
+	transition: background-color 0.3s;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.bili-header .center-search-container .center-search__bar .nav-search-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding: 0 8px;
+	width: 100%;
+	height: 32px;
+	border: 2px solid transparent;
+	border-radius: 6px;
+}
+
+.bili-header
+	.center-search-container
+	.center-search__bar
+	.nav-search-content
+	.nav-search-input {
+	flex: 1;
+	overflow: hidden;
+	padding-right: 8px;
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+	color: var(--text2);
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.bili-header .center-search-container .center-search__bar .nav-search-btn {
+	position: absolute;
+	top: 3px;
+	right: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	border: none;
+	border-radius: 6px;
+	color: var(--text1);
+	line-height: 32px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
