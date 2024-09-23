@@ -2,7 +2,15 @@
 
 ## 项目目的
 
-本项目以学习·`React·`, `Elecron` 和`puppeter`为主, 使用上述三个技术,动态爬取b站首页的内容, 进行复现.
+本项目以学习`React`, `TypeScript`, `Elecron` 和`puppeter`为主, 使用上述三个技术,动态爬取b站首页的内容, 进行复现。
+
+- 使用`puppeter`爬取b站首页当日的内容
+- 使用`React`, `TypeScript`进行复现
+- 使用`Elecron`打包成一个应用，无需进行服务器运行，直接在进程间通信
+
+## 效果呈现
+
+项目的静态呈现效果如 `https://tristean9.github.io/bilibili-dynamic-copy/`所示
 
 ## 项目结构
 
